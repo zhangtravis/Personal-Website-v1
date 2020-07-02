@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<title>Travis Zhang</title>
+	</head>
+
+	<body>
+		<script>AOS.init();</script>
+		<header>
+			<div class="logo">
+				<h1>
+					Travis Zhang
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="photo.html">Photography</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="intro" data-aos="fade-up">
+				<div>
+					<h2>
+						I am a <span id="script"></span>
+					<h2>
+
+					<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+					<script type='text/javascript'>
+						var app = document.getElementById('script');
+
+						var typewriter = new Typewriter(app, {
+						    loop: true
+						});
+
+						typewriter.typeString('Computer Scientist.')
+						.pauseFor(2500)
+					    .deleteAll()
+					    .typeString('Researcher.')
+					    .pauseFor(2500)
+					    .deleteAll()
+					    .typeString('Photographer.')
+					    .pauseFor(2500)
+					    .deleteAll()
+					    .typeString('Student.')
+					    .pauseFor(2500)
+					    .deleteAll()
+					    .start();
+					</script>
+
+					<p>
+						My name is Travis Zhang, and I am a freshman at Cornell University.
+					</p>
+					<div>
+						<a href="https://www.facebook.com/travis.zhang.9" class="fa fa-facebook"></a>
+						<a href="https://www.linkedin.com/in/travis-zhang-8430931a1/" class="fa fa-linkedin"></a>
+						<a href="https://github.com/zhangtravis?tab=repositories" class="fa fa-github"></a>
+					</div>
+					<div>
+						<a id="intro_contact" href="#contact">Contact Me</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="bio" data-aos="fade-up">
+				<h2>
+					About me
+				</h2>
+				<div class="wrapper">
+					<img src="imgs/photo.jpg" alt="Photograph of Travis Zhang" width="200" height = "200">
+				</div>
+				<p>
+					Hello! I am a prospective freshman at Cornell University majoring in Computer Science. I have various passions within the Computer Science field,&nbsp;including adversarial attack research in machine learning, robotics,&nbsp;and mobile application development,&nbsp;and I hope to continue improving upon those passions in college. I wanted to develop this website not only to show my portfolio in a succinct manner, but to also learn web development skills. In addition to my passion for CS,&nbsp;I absolutely love taking pictures wherever I go,&nbsp;and it has become a cherished hobby of mine. <br> <br>
+					Feel free to browse through my website for more information about me!
+				</p>
+			</div>
+		</section>
+		<section>
+			<div id="contact" class="contact" data-aos="fade-up">
+				<h2>
+					Contact Me
+				</h2>
+				<p>
+					This is my first website,&nbsp;so feel free to contact me if there are any bugs/errors or if you have any comments about my website!
+				</p>
+				<form>
+					<label for="fname">First name: <br><input type="text" class="fname"></label><br>
+
+					<label for="lname">Last name: <br><input type="text" class="lname"></label><br>
+					
+					<label for="email">Email Address: <br><input type="text" class="email"></label><br>
+					
+					<label for="subject">Subject: <br><input type="text" class="subject"></label><br>
+					
+					<label for="message">Message: <br><textarea class="message" name="message" rows="10" cols="30"></textarea></label><br><br>
+					
+					<input type="submit" class="submit"value="Submit">
+				</form>
+			</div>
+		</section>
+		<footer>
+			&copy;Travis Zhang 2020 | traviszhang2002@gmail.com
+		</footer>
+	</body>
+
+</html>
