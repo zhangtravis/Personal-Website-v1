@@ -92,18 +92,17 @@
 				<p>
 					This is my first website,&nbsp;so feel free to contact me if there are any bugs/errors or if you have any comments about my website!
 				</p>
-				<form>
-					<label for="fname">First name: <br><input type="text" class="fname"></label><br>
-
-					<label for="lname">Last name: <br><input type="text" class="lname"></label><br>
+				<form method="POST" action="formspree.io/traviszhang2002@gmail.com">
+					<label for="fname">Name: <br><input type="text" class="name" name="Name" placeholder="Your name" required></label><br>
 					
-					<label for="email">Email Address: <br><input type="text" class="email"></label><br>
+					<label for="email">Email Address: <br><input type="text" class="email" name="_replyto" placeholder="Your email" required></label><br>
 					
-					<label for="subject">Subject: <br><input type="text" class="subject"></label><br>
+					<label for="subject">Subject: <br><input type="text" class="subject" name="_subject" placeholder="Subject"></label><br>
 					
-					<label for="message">Message: <br><textarea class="message" name="message" rows="10" cols="30"></textarea></label><br><br>
+					<label for="message">Message: <br><textarea class="message" name="message" rows="10" cols="30" placeholder="Type your message" required></textarea></label><br><br>
 					
 					<input type="submit" class="submit"value="Submit">
+					<input type="hidden" name="_next" value="zhangtravis.github.io/thanks.html">
 				</form>
 			</div>
 		</section>
