@@ -65,11 +65,12 @@ nav li {
 
 section div {
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 }
 
 section .title {
 	font-size: 30px;
+	padding-bottom: 20px;
 }
 
 section h2 {
@@ -85,7 +86,7 @@ section .content {
 	display: inline-block;
 	text-align: left;
 	width: 50%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 section .footer {
