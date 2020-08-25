@@ -185,8 +185,7 @@ nav li {
 	padding: 20px;
 	box-sizing: border-box;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-	margin-left: 30px;
-	margin-bottom: 400px;
+	margin: 100px 0 400px 30px;
 }
 
 .skillBar h3 {
@@ -222,7 +221,6 @@ nav li {
 	top: -35px;
 }
 
-/*TODO: Change colors of skill level*/
 .skillBar .skillBox .skill {
 	background: white;
 	padding: 4px;
@@ -232,7 +230,6 @@ nav li {
 	transition: all 2s linear;
 }
 
-/* TODO: Show animation upon scroll */
 .skillBar .skillBox .skill .skillLevel {
 	background: crimson;
 	height: 20px;
