@@ -39,9 +39,11 @@ header a {
 	text-decoration: none;
 	color: black;
 	text-transform: uppercase;
+	display: block;
+	padding: 10px 15px;
 }
 
-header li:hover {
+header li a:hover {
 	background-color: white;
 }
 
@@ -56,7 +58,6 @@ nav ul {
 nav li {
 	display: inline-block;
 	margin-right: 20px;
-	padding: 10px 15px;
 	background: crimson;
 	border-radius: 5px;
 }
